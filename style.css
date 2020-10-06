@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #1f1d1e;
+
+}
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #242021;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+.navbar{
+    background-color: #d6d6dd;
+}
+.navlinks {
+    list-style: none;
+}
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s
+}
+.navlinks li a:hover {
+    color: rgb(158, 28, 54);
+}
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(158, 28, 54);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover {
+    background-color: rgb(169, 28, 56);
+}
+
+.mainImage {
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px #151313;
+}
+.blackBG {
+    background-color: #151314;
+    padding: 20%;
+}
+.firstHeader {
+
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.firstText {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    width: 55%;
+    margin-left: 24%;
+    margin-bottom: 20%;
+
+
+}
+
+.whiteBG {
+    background-color: #d6d6dd;
+    padding: 20%;
+}
+.headerTwo {
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 1000;
+      font-size: 30px;
+      color: #1f1d20;
+      text-decoration: none;
+      letter-spacing: 2px;
+      padding-top: 50px;
+      margin-bottom: 25px;
+}
+
+.TextTwo {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1f1d1f;
+    text-decoration: none;
+    letter-spacing: 2px;
+    width: 55%;
+    margin-left: 24%;
+
+}
