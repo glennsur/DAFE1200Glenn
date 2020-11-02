@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f37f23b-16c2-4ee9-a572-4a07ba18e22d" name="Default Changelist" comment="" />
+    <list default="true" id="12eed4fe-8267-4691-afee-73e52ecf4bb7" name="Default Changelist" comment="asd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1iSpQmqb4bt2Bc66qykkqQClLjg" />
+  <component name="ProjectId" id="1ixUu9dqGPvieQxNGA03bRJoUTY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,35 +43,85 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f37f23b-16c2-4ee9-a572-4a07ba18e22d" name="Default Changelist" comment="" />
-      <created>1601910833857</created>
+      <changelist id="12eed4fe-8267-4691-afee-73e52ecf4bb7" name="Default Changelist" comment="" />
+      <created>1602848956595</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601910833857</updated>
-      <workItem from="1601910834925" duration="46000" />
-      <workItem from="1601990393699" duration="7224000" />
+      <updated>1602848956595</updated>
+      <workItem from="1602848957977" duration="5862000" />
+      <workItem from="1603187165595" duration="2366000" />
+      <workItem from="1603191970614" duration="7036000" />
+      <workItem from="1603367560640" duration="1951000" />
+      <workItem from="1603374365507" duration="276000" />
+      <workItem from="1603379521373" duration="6677000" />
+      <workItem from="1603396235433" duration="2124000" />
+      <workItem from="1603402888157" duration="55000" />
+      <workItem from="1603402957625" duration="685000" />
+      <workItem from="1603403974663" duration="658000" />
+      <workItem from="1603447505248" duration="9668000" />
+      <workItem from="1603532579973" duration="2816000" />
+      <workItem from="1603536007251" duration="736000" />
+      <workItem from="1603805104160" duration="41000" />
+      <workItem from="1603805160136" duration="24000" />
+      <workItem from="1603805193630" duration="7848000" />
+      <workItem from="1603879512708" duration="1619000" />
+      <workItem from="1604141681355" duration="2691000" />
+      <workItem from="1604318480139" duration="2051000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="155" key="#Plugins" timestamp="1603402944443">
+      <screen x="0" y="0" width="1735" height="1030" />
+    </state>
+    <state x="459" y="155" key="#Plugins/0.0.1735.1030/1735.0.1920.1040@0.0.1735.1030" timestamp="1603402944443" />
+    <state x="368" y="159" key="SettingsEditor" timestamp="1603805183458">
+      <screen x="0" y="0" width="1735" height="1030" />
+    </state>
+    <state x="368" y="159" key="SettingsEditor/0.0.1735.1030/1735.0.1920.1040@0.0.1735.1030" timestamp="1603805183458" />
+    <state x="470" y="125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603453088523">
+      <screen x="0" y="0" width="1735" height="1030" />
+    </state>
+    <state x="470" y="125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1735.1030/1735.0.1920.1040@0.0.1735.1030" timestamp="1603453088523" />
+    <state x="530" y="222" width="672" height="678" key="search.everywhere.popup" timestamp="1604143068336">
+      <screen x="0" y="0" width="1735" height="1030" />
+    </state>
+    <state x="530" y="222" width="672" height="678" key="search.everywhere.popup/0.0.1735.1030@0.0.1735.1030" timestamp="1604143068336" />
   </component>
 </project>
