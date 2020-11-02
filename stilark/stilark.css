@@ -9,6 +9,7 @@ html {
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 body {
     background-color: #ffffff;
@@ -23,13 +24,14 @@ nav {
     height: 80px;
     width: 100%;
     top: 0;
-    background: #222222;
+    background: #f3f3f3;
+    z-index: 10;
 }
 
 nav img {
     position: absolute;
     width: 100px;
-    top: 15px;
+    top: 20px;
     left: 10%;
 }
 nav ul {
@@ -46,10 +48,10 @@ nav ul li a {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
-    color: white;
+    color: #090808;
 }
 nav ul li a:hover {
-    color: #c1c1c1;
+    color: #9e1c36;
 }
 
 /* NAVIGATION BAR LABEL */
@@ -62,13 +64,55 @@ label #X{
     float: right;
     cursor: pointer;
     font-size: 32px;
-    color: white;
+    color: #090808;
 }
 #check {
     display: none;
 }
 
 /* MAIN */
+
+
+/*.banner {
+    padding-top: 80px;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url("../IMG/header.jpg");
+    position: relative;
+    object-fit: cover;
+}*/
+.content .bilde {
+    width: 100%; /* or whatever is required */
+    text-align: center; /* ensures the image is always in the h-middle */
+    overflow: hidden; /* hide the cropped portion */
+}
+
+.bilde {
+    padding-top: 80px;
+    height: 900px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
+    object-fit: cover;
+    position: relative;
+}
+
+.bannerText {
+    color: #fafafa;
+    margin: 8vw 8vw;
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+}
+h1 {
+    font-size: 3vw;
+}
+h2 {
+    font-size: 6vw;
+}
+h3 {
+    font-size: 6vw;
+}
 
 .main {
     width: 100%;
@@ -88,7 +132,7 @@ div article img {
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
     font-weight: 900;
-    color: #186bbc;
+    color: #9e1c36;
 }
 
 .main p {
@@ -96,11 +140,12 @@ div article img {
     line-height: 24px;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    color: #000;
+    color: #000000;
 }
 
 .bottom-text {
     margin-bottom: 50px;
+    z-index:10;
 }
 
 /* FOOTER */
@@ -111,7 +156,7 @@ div article img {
     padding: 70px 0px;
     width: 100%;
     overflow: hidden;
-    background-color: #222222;
+    background-color: #f3f3f3;
 }
 .footer_div {
     display: block;
@@ -146,7 +191,7 @@ div article img {
     width: 100%;
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
-    color: white;
+    color: #090808;
 }
 .footer_div .footer_list a {
     display: block;
@@ -155,12 +200,12 @@ div article img {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 200;
-    color: white;
+    color: #090808;
 
 }
 .footer_div a:hover {
     cursor: pointer;
-    color: #186bbc;
+    color: #9e1c36;
 }
 .footer_div .footer_list li {
     display: inline-block;
@@ -174,7 +219,7 @@ div article img {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 200;
-    color: white;
+    color: #090808;
 }
 /* RESPONSIVE */
 
@@ -190,7 +235,7 @@ div article img {
         height: 100vh;
         width: 100%;
         text-align: center;
-        background: #222222;
+        background: #f3f3f3;
         transition: all 0.5s;
     }
     nav ul li {
@@ -255,14 +300,103 @@ div article img {
         width: 100%;
 
     }
-    nav img {
-        top: 20px;
-        left: 8%;
-        width: 80px;
-    }
+
     nav ul li a {
         font-size: 18px;
     }
 
+}
+/*@media(max-width:1215px){
+    .bannerText {
+        margin: 200px 100px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 90px;
+    }
+    h3 {
+        font-size: 90px;
+    }
+}
+@media(max-width:935px){
+    .bannerText {
+        margin: 200px 80px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 70px;
+    }
+    h3 {
+        font-size: 70px;
+    }
+}*/
+.words:before{
+    content: "";
+    animation-duration:10s;
+    animation-name:ord;
+    animation-iteration-count:infinite;
+}
+@keyframes ord{
+
+    /* QUBIT */
+
+    0%{
+        opacity:0;
+        content:"QUBIT";
+    }
+    8%{
+        opacity:1;
+        content:"QUBIT";
+    }
+    24%{
+        opacity:1;
+        content:"QUBIT";
+    }
+    33%{
+        opacity:0;
+        content:"QUBIT";
+
+        /* FIREWALL */
+
+    }
+    34%{
+        opacity:0;
+        content:"FIREWALL";
+    }
+    42%{
+        opacity:1;
+        content:"FIREWALL";
+    }
+    58%{
+        opacity:1;
+        content:"FIREWALL";
+    }
+    66%{
+        opacity:0;
+        content:"FIREWALL";
+    }
+
+    /* PIXELS */
+
+    67%{
+        opacity:0;
+        content:"PIXELS";
+    }
+    74%{
+        opacity:1;
+        content:"PIXELS";
+    }
+    91%{
+        opacity:1;
+        content:"PIXELS";
+    }
+    100%{
+        opacity:0;
+        content:"PIXELS";
+    }
 }
 
